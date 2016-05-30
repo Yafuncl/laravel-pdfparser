@@ -1,0 +1,28 @@
+{
+    "name": "yafuncl/laravel-pdfparser",
+    "description": "A PDFPARSER Wrapper for Laravel",
+    "license": "MIT",
+    "keywords": ["laravel", "pdfparser", "pdf"],
+    "authors": [
+        {
+            "name": "Yafun.cl",
+            "email": "github@yafun.cl"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "illuminate/support": "5.1.x|5.2.x",
+        "smalot/pdfparser": "^0.9.25"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Yafuncl\\PDFParser\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1"
+        }
+    }
+}
